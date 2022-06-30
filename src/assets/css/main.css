@@ -1,0 +1,42 @@
+table {
+    margin: 24px auto;
+    border: 1px solid #000000;
+    overflow: auto;
+}
+th,td {
+    padding: 3px 5px;
+    text-align: left;
+}
+table tr:first-child {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+.chart-wrapper {
+    display: flex;
+    justify-content: center;
+}
+.chart-wrapper canvas{
+    width: 40vw!important;
+}
+button {
+    padding: 10px 20px;
+    background-color: #32CD32;
+    border: none;
+    cursor: pointer;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+button.stop {
+    background-color: #ff4c4c;
+}
+.result {
+    display: flex;
+}
+.result div {
+    padding: 10px;
+    margin-right: 5px;
+    background-color: #cccccc;
+}
+.result div span {
+    display: block;
+}
